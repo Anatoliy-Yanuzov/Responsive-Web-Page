@@ -1,0 +1,89 @@
+.main-certification,
+.main-education,
+.main-career {
+  padding: 20px 75px;
+  display: flex;
+}
+.main-certification {
+  align-items: center;
+  overflow: hidden;
+}
+.main-certification-content {
+  margin-right: 100px;
+}
+.main-certification-content-title,
+.main-career-content-title {
+  color: RGB(84, 84, 109);
+}
+.main-certification-content-subtitle {
+  font-style: italic;
+  font-size: 12px;
+  color: grey;
+  margin: 5px 0;
+}
+.main-certification-picture {
+  position: relative;
+}
+.main-certification-picture::before {
+  content: "";
+  background: RGB(84, 84, 109);
+  width: 550px;
+  height: 500px;
+  position: absolute;
+  border-radius: 50%;
+  z-index: -2;
+  right: -120px;
+  top: -290px;
+}
+.main-certification-picture::after {
+  background: url("./images/award.svg");
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 300px;
+  height: 350px;
+  right: -197px;
+  top: -105px;
+  background-repeat: no-repeat;
+}
+
+.main-education {
+  background-color: RGB(20, 22, 43);
+  color: white;
+  margin-top: 60px;
+  align-items: center;
+}
+.main-education-content {
+  margin-right: 70px;
+}
+.main-education-picture {
+  position: relative;
+  top: 50px;
+}
+
+.main-career {
+  margin-top: 60px;
+}
+
+.main-career-content {
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.main-career-content-title {
+  margin-top: 0px;
+}
+.main-career-content-text {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.main-career-content-button {
+  display: inline-block;
+  border-radius: 25px;
+  padding: 10px 15px;
+  background: white;
+  color: RGB(155, 81, 196);
+  font-weight: bold;
+  border: solid 2px RGB(155, 81, 196);
+  text-decoration: none;
+  text-transform: uppercase;
+}

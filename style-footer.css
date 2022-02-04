@@ -1,0 +1,39 @@
+footer {
+  display: flex;
+  background: RGB(44, 44, 58);
+  color: white;
+  padding: 40px 75px;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.footer-creative-title,
+.footer-initiatives-title,
+.footer-partners-title {
+  color: RGB(155, 81, 196);
+  font-size: 17px;
+  margin: 0 0 20px 0;
+}
+
+.footer-nav-list {
+  line-height: 30px;
+  list-style: none;
+  padding-left: 0;
+}
+.footer-nav-list li a {
+  color: white;
+  text-decoration: none;
+}
+.footer-social-font-awesome-icons {
+  margin-bottom: 35px;
+}
+.footer-social-font-awesome-icons .fab {
+  margin: 0 7px;
+
+  font-size: 25px;
+}
+.footer-social-font-awesome-icons .fa-facebook-f {
+  margin-left: 0;
+}
+.footer-social-All-right {
+  font-size: 13px;
+}
